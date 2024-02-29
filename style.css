@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+/* element selector */
+body{
+    background-color: #3b444b;
+    font-family: sans-serif;
+}
+
+/* class selector */
+.text-primary{
+    color: whitesmoke;
+}
+
+.col{
+    width: 25%;
+    float: left;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+}
+
+.col-25{
+    width: 25%;
+    float: right;
+}
