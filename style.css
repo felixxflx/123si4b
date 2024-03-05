@@ -6,6 +6,42 @@
 body{
     background-color: #3b444b;
     font-family: sans-serif;
+    color: white;
+}
+
+/* media query */
+/* tablet : layout yang ditampilkan 4 kolom*/
+@media screen and (min-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* dekstop */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: maroon;
+    }
+    
+    .col{
+        width: 25%;
+        float: left;
+    }
+
+    .col-lg-3{
+        width: 25%;
+        float: left;
+    }
+
+    .col-lg-4{
+        width: 33.33%;
+        float: left;
+    }
 }
 
 /* class selector */
@@ -13,10 +49,6 @@ body{
     color: whitesmoke;
 }
 
-.col{
-    width: 25%;
-    float: left;
-}
 
 .img-responsive{
     width: 100%;
@@ -27,7 +59,7 @@ body{
 }
 
 .p-1{
-    padding: 10px;
+    padding: 20px;
 }
 
 .col-50{
@@ -39,3 +71,18 @@ body{
     width: 25%;
     float: right;
 }
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.semi-circle {
+    border-radius: 5%;
+}
+
+/* .col-33 {
+    width: 33.33%;
+    float: left;
+} */
