@@ -20,11 +20,6 @@ body{
         width: 50%;
         float: left;
     }
-    
-    .col-sm-12{
-        width: 100%;
-        float: left;
-    }
 }
 
 /* dekstop */
@@ -38,6 +33,11 @@ body{
         float: left;
     }
 
+    .col-lg-2{
+        width: 50%;
+        float: left;
+    }
+    
     .col-lg-3{
         width: 25%;
         float: left;
